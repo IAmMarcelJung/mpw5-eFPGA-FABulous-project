@@ -1,0 +1,73 @@
+Info: Detected FABulous 2.0 format project.
+
+Info: Checksum: 0xa27281c7
+
+Info: Device utilisation:
+Info: 	         FABULOUS_LC:   571/  576    99%
+Info: 	IO_1_bidirectional_frame_config_pass:    21/   24    87%
+Info: 	InPass4_frame_config_mux:     0/   48     0%
+Info: 	OutPass4_frame_config_mux:     0/   84     0%
+Info: 	        RegFile_32x4:     0/   12     0%
+Info: 	              MULADD:     0/    6     0%
+Info: 	        Global_Clock:     0/    1     0%
+Info: 	       FABULOUS_MUX2:     0/  288     0%
+Info: 	       FABULOUS_MUX4:     0/  144     0%
+Info: 	       FABULOUS_MUX8:     0/   72     0%
+Info: 	       Config_access:     0/   36     0%
+
+Info: Placed 21 cells based on constraints.
+Info: Creating initial analytic placement for 572 cells, random placement wirelen = 3830.
+Info:     at initial placer iter 0, wirelen = 3
+Info:     at initial placer iter 1, wirelen = 3
+Info:     at initial placer iter 2, wirelen = 15
+Info:     at initial placer iter 3, wirelen = 3
+Info: Running main analytical placer, max placement attempts per cell = 44104.
+Info:     at iteration #1, type ALL: wirelen solved = 9, spread = 467, legal = 531; time = 0.01s
+Info:     at iteration #2, type ALL: wirelen solved = 146, spread = 287, legal = 409; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 184, spread = 254, legal = 390; time = 0.01s
+Info:     at iteration #4, type ALL: wirelen solved = 187, spread = 243, legal = 324; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 189, spread = 245, legal = 346; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 186, spread = 243, legal = 310; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 187, spread = 233, legal = 300; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 193, spread = 238, legal = 338; time = 0.01s
+Info:     at iteration #9, type ALL: wirelen solved = 189, spread = 242, legal = 332; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 188, spread = 250, legal = 306; time = 0.00s
+Info:     at iteration #11, type ALL: wirelen solved = 185, spread = 242, legal = 318; time = 0.00s
+Info:     at iteration #12, type ALL: wirelen solved = 190, spread = 240, legal = 360; time = 0.00s
+Info: HeAP Placer Time: 0.11s
+Info:   of which solving equations: 0.08s
+Info:   of which spreading cells: 0.02s
+Info:   of which strict legalisation: 0.01s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 300
+iter #1: temp = 0.000000, timing cost = 0, wirelen = 292, dia = 3, Ra = 0.05 
+iter #2: temp = 0.000000, timing cost = 0, wirelen = 272, dia = 2, Ra = 0.08 
+iter #3: temp = 0.000000, timing cost = 0, wirelen = 268, dia = 2, Ra = 0.08 
+iter #4: temp = 0.000000, timing cost = 0, wirelen = 260, dia = 2, Ra = 0.08 
+Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 260
+iter #5: temp = 0.000000, timing cost = 0, wirelen = 250, dia = 2, Ra = 0.08 
+iter #6: temp = 0.000000, timing cost = 0, wirelen = 246, dia = 2, Ra = 0.08 
+iter #7: temp = 0.000000, timing cost = 0, wirelen = 244, dia = 2, Ra = 0.08 
+iter #8: temp = 0.000000, timing cost = 0, wirelen = 232, dia = 2, Ra = 0.08 
+iter #9: temp = 0.000000, timing cost = 0, wirelen = 227, dia = 2, Ra = 0.08 
+Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 227
+Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 227 
+Info: SA placement time 0.13s
+
+Info: No Fmax available; no interior timing paths found in design.
+Info: Checksum: 0x08c97104
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 606 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        606 |        0        606 |    0   606 |         0|       0.12       0.12|
+Info: Routing complete.
+Info: Router1 time 0.12s
+Info: Checksum: 0xce7c1362
+
+Info: No Fmax available; no interior timing paths found in design.
+
+Info: Program finished normally.

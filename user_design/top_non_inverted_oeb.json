@@ -1,0 +1,5919 @@
+{
+  "creator": "Yosys 0.34+43 (git sha1 d21c464ae, clang 10.0.0-4ubuntu1 -fPIC -Os)",
+  "modules": {
+    "FABULOUS_LC": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:100.1-131.10"
+      },
+      "parameter_default_values": {
+        "DFF_ENABLE": "0",
+        "INIT": "0000000000000000",
+        "K": "00000000000000000000000000000100"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I": {
+          "direction": "input",
+          "bits": [ 3, 4, 5, 6 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 7 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:105.9-105.12"
+          }
+        },
+        "I": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:106.17-106.18"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:107.10-107.11"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:108.10-108.11"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.1-82.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.28-80.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.32-80.34"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.47-80.48"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.36-80.38"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.1-88.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.28-84.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.32-84.34"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.36-84.38"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.40-84.42"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.59-84.60"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.44-84.46"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.48-84.50"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX8": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.1-98.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I5": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I6": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "I7": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "S2": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 13 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.28-90.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.32-90.34"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.36-90.38"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.40-90.42"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.44-90.46"
+          }
+        },
+        "I5": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.48-90.50"
+          }
+        },
+        "I6": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.52-90.54"
+          }
+        },
+        "I7": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.56-90.58"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.79-90.80"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.60-90.62"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.64-90.66"
+          }
+        },
+        "S2": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.68-90.70"
+          }
+        }
+      }
+    },
+    "Global_Clock": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:134.1-139.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:134.29-134.32"
+          }
+        }
+      }
+    },
+    "IO_1_bidirectional_frame_config_pass": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "keep": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.1-159.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "T": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.52-153.55"
+          }
+        },
+        "I": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.60-153.61"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.73-153.74"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.107-153.110"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.70-153.71"
+          }
+        },
+        "T": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.57-153.58"
+          }
+        }
+      }
+    },
+    "InPass4_frame_config": {
+      "attributes": {
+        "keep": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.1-144.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O0": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "O1": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "O2": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "O3": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.36-142.39"
+          }
+        },
+        "O0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.48-142.50"
+          }
+        },
+        "O1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.52-142.54"
+          }
+        },
+        "O2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.56-142.58"
+          }
+        },
+        "O3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.60-142.62"
+          }
+        }
+      }
+    },
+    "LUT1": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.1-4.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.29-1.31"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.20-1.21"
+          }
+        }
+      }
+    },
+    "LUT2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.1-10.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.29-6.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.33-6.35"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.20-6.21"
+          }
+        }
+      }
+    },
+    "LUT3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.1-17.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.29-12.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.33-12.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.37-12.39"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.20-12.21"
+          }
+        }
+      }
+    },
+    "LUT4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.1-25.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.29-19.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.33-19.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.37-19.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.41-19.43"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.20-19.21"
+          }
+        }
+      }
+    },
+    "LUT4_HA": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.1-39.10"
+      },
+      "parameter_default_values": {
+        "I0MUX": "1",
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "Ci": {
+          "direction": "input",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "Ci": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.52-27.54"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.26-27.28"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.36-27.38"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.40-27.42"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.44-27.46"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.48-27.50"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.23-27.24"
+          }
+        }
+      }
+    },
+    "LUT5": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.1-48.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.29-41.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.33-41.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.37-41.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.41-41.43"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.45-41.47"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.20-41.21"
+          }
+        }
+      }
+    },
+    "LUT55_FCY": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.1-70.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "Ci": {
+          "direction": "input",
+          "bits": [ 9 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "Ci": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.59-60.61"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.29-60.31"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.39-60.41"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.43-60.45"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.47-60.49"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.51-60.53"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.55-60.57"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.26-60.27"
+          }
+        }
+      }
+    },
+    "LUT6": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.1-58.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I5": {
+          "direction": "input",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.29-50.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.33-50.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.37-50.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.41-50.43"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.45-50.47"
+          }
+        },
+        "I5": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.49-50.51"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.20-50.21"
+          }
+        }
+      }
+    },
+    "LUTFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.1-78.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.20-73.23"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.25-73.26"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.39-73.40"
+          }
+        }
+      }
+    },
+    "MULADD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:162.1-299.10"
+      },
+      "parameter_default_values": {
+        "ACC": "0",
+        "ACCout": "0",
+        "A_reg": "0",
+        "B_reg": "0",
+        "C_reg": "0",
+        "signExtension": "0"
+      },
+      "ports": {
+        "A7": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "A6": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "A5": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "A4": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "A3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "A2": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "A1": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "A0": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "B7": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "B6": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "B5": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "B4": {
+          "direction": "input",
+          "bits": [ 13 ]
+        },
+        "B3": {
+          "direction": "input",
+          "bits": [ 14 ]
+        },
+        "B2": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "B1": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "B0": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "C19": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "C18": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "C17": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "C16": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "C15": {
+          "direction": "input",
+          "bits": [ 22 ]
+        },
+        "C14": {
+          "direction": "input",
+          "bits": [ 23 ]
+        },
+        "C13": {
+          "direction": "input",
+          "bits": [ 24 ]
+        },
+        "C12": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "C11": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "C10": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "C9": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "C8": {
+          "direction": "input",
+          "bits": [ 29 ]
+        },
+        "C7": {
+          "direction": "input",
+          "bits": [ 30 ]
+        },
+        "C6": {
+          "direction": "input",
+          "bits": [ 31 ]
+        },
+        "C5": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "C4": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "C3": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "C2": {
+          "direction": "input",
+          "bits": [ 35 ]
+        },
+        "C1": {
+          "direction": "input",
+          "bits": [ 36 ]
+        },
+        "C0": {
+          "direction": "input",
+          "bits": [ 37 ]
+        },
+        "Q19": {
+          "direction": "output",
+          "bits": [ 38 ]
+        },
+        "Q18": {
+          "direction": "output",
+          "bits": [ 39 ]
+        },
+        "Q17": {
+          "direction": "output",
+          "bits": [ 40 ]
+        },
+        "Q16": {
+          "direction": "output",
+          "bits": [ 41 ]
+        },
+        "Q15": {
+          "direction": "output",
+          "bits": [ 42 ]
+        },
+        "Q14": {
+          "direction": "output",
+          "bits": [ 43 ]
+        },
+        "Q13": {
+          "direction": "output",
+          "bits": [ 44 ]
+        },
+        "Q12": {
+          "direction": "output",
+          "bits": [ 45 ]
+        },
+        "Q11": {
+          "direction": "output",
+          "bits": [ 46 ]
+        },
+        "Q10": {
+          "direction": "output",
+          "bits": [ 47 ]
+        },
+        "Q9": {
+          "direction": "output",
+          "bits": [ 48 ]
+        },
+        "Q8": {
+          "direction": "output",
+          "bits": [ 49 ]
+        },
+        "Q7": {
+          "direction": "output",
+          "bits": [ 50 ]
+        },
+        "Q6": {
+          "direction": "output",
+          "bits": [ 51 ]
+        },
+        "Q5": {
+          "direction": "output",
+          "bits": [ 52 ]
+        },
+        "Q4": {
+          "direction": "output",
+          "bits": [ 53 ]
+        },
+        "Q3": {
+          "direction": "output",
+          "bits": [ 54 ]
+        },
+        "Q2": {
+          "direction": "output",
+          "bits": [ 55 ]
+        },
+        "Q1": {
+          "direction": "output",
+          "bits": [ 56 ]
+        },
+        "Q0": {
+          "direction": "output",
+          "bits": [ 57 ]
+        },
+        "clr": {
+          "direction": "input",
+          "bits": [ 58 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 59 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A0": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:179.9-179.11"
+          }
+        },
+        "A1": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:178.9-178.11"
+          }
+        },
+        "A2": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:177.9-177.11"
+          }
+        },
+        "A3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:176.9-176.11"
+          }
+        },
+        "A4": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:175.9-175.11"
+          }
+        },
+        "A5": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:174.9-174.11"
+          }
+        },
+        "A6": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:173.9-173.11"
+          }
+        },
+        "A7": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:172.9-172.11"
+          }
+        },
+        "B0": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:187.9-187.11"
+          }
+        },
+        "B1": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:186.9-186.11"
+          }
+        },
+        "B2": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:185.9-185.11"
+          }
+        },
+        "B3": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:184.9-184.11"
+          }
+        },
+        "B4": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:183.9-183.11"
+          }
+        },
+        "B5": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:182.9-182.11"
+          }
+        },
+        "B6": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:181.9-181.11"
+          }
+        },
+        "B7": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:180.9-180.11"
+          }
+        },
+        "C0": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:207.9-207.11"
+          }
+        },
+        "C1": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:206.9-206.11"
+          }
+        },
+        "C10": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:197.9-197.12"
+          }
+        },
+        "C11": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:196.9-196.12"
+          }
+        },
+        "C12": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:195.9-195.12"
+          }
+        },
+        "C13": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:194.9-194.12"
+          }
+        },
+        "C14": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:193.9-193.12"
+          }
+        },
+        "C15": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:192.9-192.12"
+          }
+        },
+        "C16": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:191.9-191.12"
+          }
+        },
+        "C17": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:190.9-190.12"
+          }
+        },
+        "C18": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:189.9-189.12"
+          }
+        },
+        "C19": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:188.9-188.12"
+          }
+        },
+        "C2": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:205.9-205.11"
+          }
+        },
+        "C3": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:204.9-204.11"
+          }
+        },
+        "C4": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:203.9-203.11"
+          }
+        },
+        "C5": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:202.9-202.11"
+          }
+        },
+        "C6": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:201.9-201.11"
+          }
+        },
+        "C7": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:200.9-200.11"
+          }
+        },
+        "C8": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:199.9-199.11"
+          }
+        },
+        "C9": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:198.9-198.11"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:230.9-230.12"
+          }
+        },
+        "Q0": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:227.10-227.12"
+          }
+        },
+        "Q1": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:226.10-226.12"
+          }
+        },
+        "Q10": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:217.10-217.13"
+          }
+        },
+        "Q11": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:216.10-216.13"
+          }
+        },
+        "Q12": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:215.10-215.13"
+          }
+        },
+        "Q13": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:214.10-214.13"
+          }
+        },
+        "Q14": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:213.10-213.13"
+          }
+        },
+        "Q15": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:212.10-212.13"
+          }
+        },
+        "Q16": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:211.10-211.13"
+          }
+        },
+        "Q17": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:210.10-210.13"
+          }
+        },
+        "Q18": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:209.10-209.13"
+          }
+        },
+        "Q19": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:208.10-208.13"
+          }
+        },
+        "Q2": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:225.10-225.12"
+          }
+        },
+        "Q3": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:224.10-224.12"
+          }
+        },
+        "Q4": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:223.10-223.12"
+          }
+        },
+        "Q5": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:222.10-222.12"
+          }
+        },
+        "Q6": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:221.10-221.12"
+          }
+        },
+        "Q7": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:220.10-220.12"
+          }
+        },
+        "Q8": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:219.10-219.12"
+          }
+        },
+        "Q9": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:218.10-218.12"
+          }
+        },
+        "clr": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:229.9-229.12"
+          }
+        }
+      }
+    },
+    "OutPass4_frame_config": {
+      "attributes": {
+        "keep": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.1-150.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.37-148.40"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.42-148.44"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.46-148.48"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.50-148.52"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.54-148.56"
+          }
+        }
+      }
+    },
+    "RegFile_32x4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:301.1-395.10"
+      },
+      "parameter_default_values": {
+        "AD_reg": "0",
+        "BD_reg": "0"
+      },
+      "ports": {
+        "D0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "D2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "W_ADR0": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "W_ADR1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "W_ADR2": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "W_ADR3": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "W_ADR4": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "W_en": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "AD0": {
+          "direction": "output",
+          "bits": [ 12 ]
+        },
+        "AD1": {
+          "direction": "output",
+          "bits": [ 13 ]
+        },
+        "AD2": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "AD3": {
+          "direction": "output",
+          "bits": [ 15 ]
+        },
+        "A_ADR0": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "A_ADR1": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "A_ADR2": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "A_ADR3": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "A_ADR4": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "BD0": {
+          "direction": "output",
+          "bits": [ 21 ]
+        },
+        "BD1": {
+          "direction": "output",
+          "bits": [ 22 ]
+        },
+        "BD2": {
+          "direction": "output",
+          "bits": [ 23 ]
+        },
+        "BD3": {
+          "direction": "output",
+          "bits": [ 24 ]
+        },
+        "B_ADR0": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "B_ADR1": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "B_ADR2": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "B_ADR3": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "B_ADR4": {
+          "direction": "input",
+          "bits": [ 29 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 30 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "AD0": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:317.10-317.13"
+          }
+        },
+        "AD1": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:318.10-318.13"
+          }
+        },
+        "AD2": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:319.10-319.13"
+          }
+        },
+        "AD3": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:320.10-320.13"
+          }
+        },
+        "A_ADR0": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:321.9-321.15"
+          }
+        },
+        "A_ADR1": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:322.9-322.15"
+          }
+        },
+        "A_ADR2": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:323.9-323.15"
+          }
+        },
+        "A_ADR3": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:324.9-324.15"
+          }
+        },
+        "A_ADR4": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:325.9-325.15"
+          }
+        },
+        "BD0": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:327.10-327.13"
+          }
+        },
+        "BD1": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:328.10-328.13"
+          }
+        },
+        "BD2": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:329.10-329.13"
+          }
+        },
+        "BD3": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:330.10-330.13"
+          }
+        },
+        "B_ADR0": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:331.9-331.15"
+          }
+        },
+        "B_ADR1": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:332.9-332.15"
+          }
+        },
+        "B_ADR2": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:333.9-333.15"
+          }
+        },
+        "B_ADR3": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:334.9-334.15"
+          }
+        },
+        "B_ADR4": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:335.9-335.15"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:337.9-337.12"
+          }
+        },
+        "D0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:306.9-306.11"
+          }
+        },
+        "D1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:307.9-307.11"
+          }
+        },
+        "D2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:308.9-308.11"
+          }
+        },
+        "D3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:309.9-309.11"
+          }
+        },
+        "W_ADR0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:310.9-310.15"
+          }
+        },
+        "W_ADR1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:311.9-311.15"
+          }
+        },
+        "W_ADR2": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:312.9-312.15"
+          }
+        },
+        "W_ADR3": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:313.9-313.15"
+          }
+        },
+        "W_ADR4": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:314.9-314.15"
+          }
+        },
+        "W_en": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:315.9-315.13"
+          }
+        }
+      }
+    },
+    "top_wrapper": {
+      "attributes": {
+        "hdlname": "\\top_wrapper",
+        "top": "00000000000000000000000000000001",
+        "src": "mpw5_test//user_design/top_wrapper.v:1.1-121.10"
+      },
+      "ports": {
+      },
+      "cells": {
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1000": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 3 ],
+            "O": [ 4 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1001": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 4 ],
+            "I1": [ 5 ],
+            "I2": [ 6 ],
+            "I3": [ 7 ],
+            "O": [ 8 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1002": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 9 ],
+            "I1": [ 10 ],
+            "I2": [ 7 ],
+            "O": [ 11 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1003": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 3 ],
+            "I2": [ 5 ],
+            "I3": [ 6 ],
+            "O": [ 9 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1004": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 12 ],
+            "I1": [ 13 ],
+            "I2": [ 7 ],
+            "O": [ 14 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1005": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 9 ],
+            "I1": [ 10 ],
+            "O": [ 12 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1006": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 12 ],
+            "I1": [ 13 ],
+            "I2": [ 15 ],
+            "I3": [ 7 ],
+            "O": [ 16 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1007": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 17 ],
+            "I1": [ 18 ],
+            "I2": [ 7 ],
+            "O": [ 19 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1008": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 9 ],
+            "I1": [ 10 ],
+            "I2": [ 13 ],
+            "I3": [ 15 ],
+            "O": [ 17 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1009": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 17 ],
+            "I1": [ 18 ],
+            "I2": [ 20 ],
+            "I3": [ 7 ],
+            "O": [ 21 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1010": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 22 ],
+            "I1": [ 23 ],
+            "I2": [ 7 ],
+            "O": [ 24 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1011": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 17 ],
+            "I1": [ 18 ],
+            "I2": [ 20 ],
+            "O": [ 22 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1012": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 25 ],
+            "I1": [ 26 ],
+            "I2": [ 7 ],
+            "O": [ 27 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1013": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 17 ],
+            "I1": [ 18 ],
+            "I2": [ 20 ],
+            "I3": [ 23 ],
+            "O": [ 25 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1014": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 29 ],
+            "I2": [ 30 ],
+            "O": [ 31 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1015": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 32 ],
+            "I2": [ 33 ],
+            "O": [ 34 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1016": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 29 ],
+            "I1": [ 30 ],
+            "O": [ 32 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1017": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 32 ],
+            "I1": [ 33 ],
+            "I2": [ 28 ],
+            "I3": [ 35 ],
+            "O": [ 36 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1018": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 37 ],
+            "I2": [ 38 ],
+            "O": [ 39 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1019": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 32 ],
+            "I1": [ 33 ],
+            "I2": [ 35 ],
+            "O": [ 37 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1020": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 40 ],
+            "I2": [ 41 ],
+            "O": [ 42 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1021": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 32 ],
+            "I1": [ 33 ],
+            "I2": [ 35 ],
+            "I3": [ 38 ],
+            "O": [ 40 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1022": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 40 ],
+            "I1": [ 41 ],
+            "I2": [ 28 ],
+            "I3": [ 43 ],
+            "O": [ 44 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1023": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 45 ],
+            "I2": [ 46 ],
+            "O": [ 47 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1024": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 48 ],
+            "I1": [ 49 ],
+            "I2": [ 50 ],
+            "I3": [ 43 ],
+            "O": [ 45 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1025": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 10 ],
+            "I1": [ 26 ],
+            "I2": [ 51 ],
+            "I3": [ 52 ],
+            "O": [ 48 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1026": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 15 ],
+            "I1": [ 53 ],
+            "I2": [ 54 ],
+            "O": [ 51 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1027": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 55 ],
+            "I1": [ 56 ],
+            "I2": [ 57 ],
+            "O": [ 53 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1028": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 13 ],
+            "I1": [ 20 ],
+            "I2": [ 23 ],
+            "O": [ 52 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1029": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 5 ],
+            "I1": [ 18 ],
+            "I2": [ 58 ],
+            "O": [ 49 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1030": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 60 ],
+            "I2": [ 3 ],
+            "I3": [ 6 ],
+            "O": [ 58 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1031": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 61 ],
+            "I1": [ 30 ],
+            "I2": [ 38 ],
+            "O": [ 50 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1032": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 33 ],
+            "I1": [ 35 ],
+            "I2": [ 41 ],
+            "O": [ 61 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1033": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 62 ],
+            "I2": [ 63 ],
+            "O": [ 64 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1034": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 40 ],
+            "I1": [ 41 ],
+            "I2": [ 43 ],
+            "I3": [ 46 ],
+            "O": [ 62 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1035": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 62 ],
+            "I1": [ 63 ],
+            "I2": [ 28 ],
+            "I3": [ 65 ],
+            "O": [ 66 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1036": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 62 ],
+            "I1": [ 67 ],
+            "I2": [ 28 ],
+            "I3": [ 68 ],
+            "O": [ 69 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1037": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 63 ],
+            "I1": [ 65 ],
+            "O": [ 67 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1038": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 70 ],
+            "I2": [ 71 ],
+            "O": [ 72 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1039": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 45 ],
+            "I1": [ 73 ],
+            "I2": [ 46 ],
+            "O": [ 70 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1040": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 67 ],
+            "I1": [ 68 ],
+            "O": [ 73 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1041": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 70 ],
+            "I1": [ 71 ],
+            "I2": [ 28 ],
+            "I3": [ 74 ],
+            "O": [ 75 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1042": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 76 ],
+            "I2": [ 77 ],
+            "O": [ 78 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1043": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 48 ],
+            "I1": [ 79 ],
+            "I2": [ 49 ],
+            "O": [ 76 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1044": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 50 ],
+            "I1": [ 73 ],
+            "I2": [ 80 ],
+            "I3": [ 71 ],
+            "O": [ 79 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1045": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 43 ],
+            "I1": [ 46 ],
+            "I2": [ 74 ],
+            "O": [ 80 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1046": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 77 ],
+            "I2": [ 28 ],
+            "I3": [ 81 ],
+            "O": [ 82 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1047": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 83 ],
+            "I2": [ 84 ],
+            "O": [ 85 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1048": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 40 ],
+            "I1": [ 86 ],
+            "I2": [ 79 ],
+            "O": [ 83 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1049": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 77 ],
+            "I1": [ 81 ],
+            "O": [ 86 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1050": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 83 ],
+            "I1": [ 84 ],
+            "I2": [ 28 ],
+            "I3": [ 87 ],
+            "O": [ 88 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1051": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 89 ],
+            "I2": [ 90 ],
+            "O": [ 91 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1052": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 86 ],
+            "I2": [ 84 ],
+            "I3": [ 87 ],
+            "O": [ 89 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1053": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 89 ],
+            "I1": [ 90 ],
+            "I2": [ 28 ],
+            "I3": [ 92 ],
+            "O": [ 93 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1054": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 94 ],
+            "I2": [ 28 ],
+            "I3": [ 95 ],
+            "O": [ 96 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1055": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 86 ],
+            "I1": [ 97 ],
+            "O": [ 94 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1056": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 84 ],
+            "I1": [ 87 ],
+            "I2": [ 90 ],
+            "I3": [ 92 ],
+            "O": [ 97 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1057": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 98 ],
+            "I2": [ 99 ],
+            "O": [ 100 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1058": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 94 ],
+            "I2": [ 95 ],
+            "O": [ 98 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1059": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 28 ],
+            "I1": [ 101 ],
+            "I2": [ 102 ],
+            "O": [ 103 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1060": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 76 ],
+            "I1": [ 94 ],
+            "I2": [ 95 ],
+            "I3": [ 99 ],
+            "O": [ 101 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$1061": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 101 ],
+            "I1": [ 102 ],
+            "I2": [ 28 ],
+            "I3": [ 104 ],
+            "O": [ 105 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$983": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 7 ],
+            "O": [ 106 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$984": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 29 ],
+            "I1": [ 28 ],
+            "O": [ 7 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$985": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 107 ],
+            "I1": [ 108 ],
+            "I2": [ 109 ],
+            "I3": [ 110 ],
+            "O": [ 29 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$986": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 3 ],
+            "I1": [ 5 ],
+            "I2": [ 6 ],
+            "I3": [ 10 ],
+            "O": [ 107 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$987": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 55 ],
+            "I2": [ 56 ],
+            "I3": [ 60 ],
+            "O": [ 108 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$988": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 23 ],
+            "I1": [ 26 ],
+            "I2": [ 57 ],
+            "I3": [ 54 ],
+            "O": [ 109 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$989": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 13 ],
+            "I1": [ 15 ],
+            "I2": [ 18 ],
+            "I3": [ 20 ],
+            "O": [ 110 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$990": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 57 ],
+            "I2": [ 7 ],
+            "O": [ 111 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$991": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 57 ],
+            "I2": [ 54 ],
+            "I3": [ 7 ],
+            "O": [ 112 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$992": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 7 ],
+            "I1": [ 113 ],
+            "O": [ 114 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$993": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111111110000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 57 ],
+            "I2": [ 54 ],
+            "I3": [ 55 ],
+            "O": [ 113 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$994": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 115 ],
+            "I1": [ 56 ],
+            "I2": [ 7 ],
+            "O": [ 116 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$995": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 59 ],
+            "I1": [ 55 ],
+            "I2": [ 57 ],
+            "I3": [ 54 ],
+            "O": [ 115 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$996": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111100000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 115 ],
+            "I1": [ 56 ],
+            "I2": [ 60 ],
+            "I3": [ 7 ],
+            "O": [ 117 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$997": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 3 ],
+            "I2": [ 7 ],
+            "O": [ 118 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$998": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 115 ],
+            "I1": [ 56 ],
+            "I2": [ 60 ],
+            "O": [ 2 ]
+          }
+        },
+        "$abc$982$auto$blifparse.cc:525:parse_blif$999": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "01100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 4 ],
+            "I1": [ 5 ],
+            "I2": [ 7 ],
+            "O": [ 119 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$146": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 106 ],
+            "O": [ 59 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$147": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 111 ],
+            "O": [ 57 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$148": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 112 ],
+            "O": [ 54 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$149": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 114 ],
+            "O": [ 55 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$150": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 116 ],
+            "O": [ 56 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$151": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 117 ],
+            "O": [ 60 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$152": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 118 ],
+            "O": [ 3 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$153": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 119 ],
+            "O": [ 5 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$154": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 8 ],
+            "O": [ 6 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$155": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 11 ],
+            "O": [ 10 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$156": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 14 ],
+            "O": [ 13 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$157": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 16 ],
+            "O": [ 15 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$158": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 19 ],
+            "O": [ 18 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$159": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 21 ],
+            "O": [ 20 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$160": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 24 ],
+            "O": [ 23 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$161": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:22.5-28.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 27 ],
+            "O": [ 26 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$162": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 31 ],
+            "O": [ 30 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$163": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 34 ],
+            "O": [ 33 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$164": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 36 ],
+            "O": [ 35 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$165": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 39 ],
+            "O": [ 38 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$166": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 42 ],
+            "O": [ 41 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$167": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 44 ],
+            "O": [ 43 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$168": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 47 ],
+            "O": [ 46 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$169": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 64 ],
+            "O": [ 63 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$170": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 66 ],
+            "O": [ 65 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$171": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 69 ],
+            "O": [ 68 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$172": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 72 ],
+            "O": [ 71 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$173": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 75 ],
+            "O": [ 74 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$174": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 78 ],
+            "O": [ 77 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$175": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 82 ],
+            "O": [ 81 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$176": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 85 ],
+            "O": [ 84 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$177": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 88 ],
+            "O": [ 87 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$178": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 91 ],
+            "O": [ 90 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$179": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 93 ],
+            "O": [ 92 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$180": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 96 ],
+            "O": [ 95 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$181": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 100 ],
+            "O": [ 99 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$182": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 103 ],
+            "O": [ 102 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$183": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:14.5-20.8|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ],
+            "D": [ 105 ],
+            "O": [ 104 ]
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "type": "Global_Clock",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:7.18-7.35"
+          },
+          "port_directions": {
+            "CLK": "output"
+          },
+          "connections": {
+            "CLK": [ 120 ]
+          }
+        },
+        "io10_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y11.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:109.68-113.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 71 ],
+            "O": [ 121 ],
+            "T": [ "0" ]
+          }
+        },
+        "io11_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y11.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:104.68-108.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 74 ],
+            "O": [ 122 ],
+            "T": [ "0" ]
+          }
+        },
+        "io12_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y10.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:99.68-103.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 77 ],
+            "O": [ 123 ],
+            "T": [ "0" ]
+          }
+        },
+        "io13_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y10.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:94.68-98.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 81 ],
+            "O": [ 124 ],
+            "T": [ "0" ]
+          }
+        },
+        "io14_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y9.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:89.67-93.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 84 ],
+            "O": [ 125 ],
+            "T": [ "0" ]
+          }
+        },
+        "io15_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y9.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:84.67-88.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 87 ],
+            "O": [ 126 ],
+            "T": [ "0" ]
+          }
+        },
+        "io16_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y8.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:79.67-83.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 90 ],
+            "O": [ 127 ],
+            "T": [ "0" ]
+          }
+        },
+        "io17_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y8.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:74.67-78.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 92 ],
+            "O": [ 128 ],
+            "T": [ "0" ]
+          }
+        },
+        "io18_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y7.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:69.67-73.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 95 ],
+            "O": [ 129 ],
+            "T": [ "0" ]
+          }
+        },
+        "io19_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y7.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:64.67-68.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 99 ],
+            "O": [ 130 ],
+            "T": [ "0" ]
+          }
+        },
+        "io20_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y6.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:59.67-63.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 102 ],
+            "O": [ 131 ],
+            "T": [ "0" ]
+          }
+        },
+        "io21_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y6.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:54.67-58.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 104 ],
+            "O": [ 132 ],
+            "T": [ "0" ]
+          }
+        },
+        "io22_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y5.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:49.67-53.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 28 ],
+            "O": [ 133 ],
+            "T": [ "0" ]
+          }
+        },
+        "io23_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y5.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:44.67-48.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "x" ],
+            "O": [ 28 ],
+            "T": [ "1" ]
+          }
+        },
+        "io24_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y4.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:39.67-43.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 134 ],
+            "T": [ "0" ]
+          }
+        },
+        "io25_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y4.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:34.67-38.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 135 ],
+            "T": [ "0" ]
+          }
+        },
+        "io26_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y3.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:29.67-33.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 136 ],
+            "T": [ "0" ]
+          }
+        },
+        "io27_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y3.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:24.67-28.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 137 ],
+            "T": [ "0" ]
+          }
+        },
+        "io28_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y2.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:19.67-23.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 138 ],
+            "T": [ "0" ]
+          }
+        },
+        "io29_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y2.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:14.67-18.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 139 ],
+            "T": [ "0" ]
+          }
+        },
+        "io30_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y1.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw5_test//user_design/top_wrapper.v:9.67-13.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "0" ],
+            "O": [ 140 ],
+            "T": [ "0" ]
+          }
+        }
+      },
+      "netnames": {
+        "$abc$982$auto$alumacc.cc:485:replace_alu$61.CO[11]_new": {
+          "hide_name": 1,
+          "bits": [ 79 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:17.52-17.62|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$61.CO[4]_new": {
+          "hide_name": 1,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:17.52-17.62|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[11]_new": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[13]_new": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[14]_new": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[3]_new": {
+          "hide_name": 1,
+          "bits": [ 115 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[5]_new": {
+          "hide_name": 1,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[6]_new": {
+          "hide_name": 1,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[8]_new": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.CO[9]_new": {
+          "hide_name": 1,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:274.23-274.25"
+          }
+        },
+        "$abc$982$auto$alumacc.cc:485:replace_alu$64.Y[3]_new": {
+          "hide_name": 1,
+          "bits": [ 113 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:26.30-26.45|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:270.26-270.27"
+          }
+        },
+        "$abc$982$auto$opt_dff.cc:253:combine_resets$57_new_inv": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$822": {
+          "hide_name": 1,
+          "bits": [ 106 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$824": {
+          "hide_name": 1,
+          "bits": [ 111 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$826": {
+          "hide_name": 1,
+          "bits": [ 112 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$828": {
+          "hide_name": 1,
+          "bits": [ 114 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$830": {
+          "hide_name": 1,
+          "bits": [ 116 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$832": {
+          "hide_name": 1,
+          "bits": [ 117 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$834": {
+          "hide_name": 1,
+          "bits": [ 118 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$836": {
+          "hide_name": 1,
+          "bits": [ 119 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$838": {
+          "hide_name": 1,
+          "bits": [ 8 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$840": {
+          "hide_name": 1,
+          "bits": [ 11 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$842": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$844": {
+          "hide_name": 1,
+          "bits": [ 16 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$846": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$848": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$850": {
+          "hide_name": 1,
+          "bits": [ 24 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$852": {
+          "hide_name": 1,
+          "bits": [ 27 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$856": {
+          "hide_name": 1,
+          "bits": [ 31 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$860": {
+          "hide_name": 1,
+          "bits": [ 34 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$864": {
+          "hide_name": 1,
+          "bits": [ 36 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$868": {
+          "hide_name": 1,
+          "bits": [ 39 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$872": {
+          "hide_name": 1,
+          "bits": [ 42 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$876": {
+          "hide_name": 1,
+          "bits": [ 44 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$880": {
+          "hide_name": 1,
+          "bits": [ 47 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$884": {
+          "hide_name": 1,
+          "bits": [ 64 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$888": {
+          "hide_name": 1,
+          "bits": [ 66 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$892": {
+          "hide_name": 1,
+          "bits": [ 69 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$896": {
+          "hide_name": 1,
+          "bits": [ 72 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$900": {
+          "hide_name": 1,
+          "bits": [ 75 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$904": {
+          "hide_name": 1,
+          "bits": [ 78 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$908": {
+          "hide_name": 1,
+          "bits": [ 82 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$912": {
+          "hide_name": 1,
+          "bits": [ 85 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$916": {
+          "hide_name": 1,
+          "bits": [ 88 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$920": {
+          "hide_name": 1,
+          "bits": [ 91 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$924": {
+          "hide_name": 1,
+          "bits": [ 93 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$928": {
+          "hide_name": 1,
+          "bits": [ 96 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$932": {
+          "hide_name": 1,
+          "bits": [ 100 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$936": {
+          "hide_name": 1,
+          "bits": [ 103 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$auto$rtlil.cc:2669:MuxGate$940": {
+          "hide_name": 1,
+          "bits": [ 105 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$flatten\\top_i.$eq$mpw5_test//user_design/top_non_inverted_oeb.v:17$36_Y_new": {
+          "hide_name": 1,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:17.17-17.43"
+          }
+        },
+        "$abc$982$new_n112": {
+          "hide_name": 1,
+          "bits": [ 32 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n115": {
+          "hide_name": 1,
+          "bits": [ 37 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n117": {
+          "hide_name": 1,
+          "bits": [ 40 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n120": {
+          "hide_name": 1,
+          "bits": [ 45 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n121": {
+          "hide_name": 1,
+          "bits": [ 48 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n122": {
+          "hide_name": 1,
+          "bits": [ 51 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n123": {
+          "hide_name": 1,
+          "bits": [ 53 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n124": {
+          "hide_name": 1,
+          "bits": [ 52 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n125": {
+          "hide_name": 1,
+          "bits": [ 49 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n126": {
+          "hide_name": 1,
+          "bits": [ 58 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n128": {
+          "hide_name": 1,
+          "bits": [ 61 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n130": {
+          "hide_name": 1,
+          "bits": [ 62 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n133": {
+          "hide_name": 1,
+          "bits": [ 67 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n135": {
+          "hide_name": 1,
+          "bits": [ 70 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n136": {
+          "hide_name": 1,
+          "bits": [ 73 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n139": {
+          "hide_name": 1,
+          "bits": [ 76 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n141": {
+          "hide_name": 1,
+          "bits": [ 80 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n144": {
+          "hide_name": 1,
+          "bits": [ 83 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n150": {
+          "hide_name": 1,
+          "bits": [ 89 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n153": {
+          "hide_name": 1,
+          "bits": [ 94 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n154": {
+          "hide_name": 1,
+          "bits": [ 97 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n156": {
+          "hide_name": 1,
+          "bits": [ 98 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n158": {
+          "hide_name": 1,
+          "bits": [ 101 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n82": {
+          "hide_name": 1,
+          "bits": [ 107 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n83": {
+          "hide_name": 1,
+          "bits": [ 108 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n84": {
+          "hide_name": 1,
+          "bits": [ 109 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$new_n85": {
+          "hide_name": 1,
+          "bits": [ 110 ],
+          "attributes": {
+          }
+        },
+        "$abc$982$techmap$auto$alumacc.cc:485:replace_alu$61.lcu.$and$/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:241$333_Y_new": {
+          "hide_name": 1,
+          "bits": [ 86 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:17.52-17.62|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:286.27-286.69|/home/marcel/Storage/Programs/oss-cad-suite/lib/../share/yosys/techmap.v:241.12-241.34"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 120 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:2.17-2.20"
+          }
+        },
+        "io_in": {
+          "hide_name": 0,
+          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 28, 134, 135, 136, 137, 138, 139, 140 ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:3.17-3.22",
+            "unused_bits": "10 11 12 13 14 15 16 17 18 19 20 21 22 24 25 26 27 28 29 30"
+          }
+        },
+        "io_oeb": {
+          "hide_name": 0,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:5.17-5.23"
+          }
+        },
+        "io_out": {
+          "hide_name": 0,
+          "bits": [ 30, 33, 35, 38, 41, 43, 46, 63, 65, 68, 71, 74, 77, 81, 84, 87, 90, 92, 95, 99, 102, 104, 28, "x", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "mpw5_test//user_design/top_wrapper.v:4.17-4.23"
+          }
+        },
+        "top_i.clk": {
+          "hide_name": 0,
+          "bits": [ 120 ],
+          "attributes": {
+            "hdlname": "top_i clk",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:2.16-2.19"
+          }
+        },
+        "top_i.ctr": {
+          "hide_name": 0,
+          "bits": [ 30, 33, 35, 38, 41, 43, 46, 63, 65, 68, 71, 74, 77, 81, 84, 87, 90, 92, 95, 99, 102, 104, 141, 142 ],
+          "attributes": {
+            "hdlname": "top_i ctr",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:10.30-10.33",
+            "unused_bits": "22 23"
+          }
+        },
+        "top_i.io_in": {
+          "hide_name": 0,
+          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 28 ],
+          "attributes": {
+            "hdlname": "top_i io_in",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:3.23-3.28",
+            "unused_bits": "10 11 12 13 14 15 16 17 18 19 20 21 22"
+          }
+        },
+        "top_i.io_oeb": {
+          "hide_name": 0,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1" ],
+          "attributes": {
+            "hdlname": "top_i io_oeb",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:5.5-5.11"
+          }
+        },
+        "top_i.io_out": {
+          "hide_name": 0,
+          "bits": [ 30, 33, 35, 38, 41, 43, 46, 63, 65, 68, 71, 74, 77, 81, 84, 87, 90, 92, 95, 99, 102, 104, 28, "x" ],
+          "attributes": {
+            "hdlname": "top_i io_out",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:4.24-4.30"
+          }
+        },
+        "top_i.prescale": {
+          "hide_name": 0,
+          "bits": [ 59, 57, 54, 55, 56, 60, 3, 5, 6, 10, 13, 15, 18, 20, 23, 26 ],
+          "attributes": {
+            "hdlname": "top_i prescale",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:11.30-11.38"
+          }
+        },
+        "top_i.rst": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "hdlname": "top_i rst",
+            "src": "mpw5_test//user_design/top_wrapper.v:115.9-120.6|mpw5_test//user_design/top_non_inverted_oeb.v:7.10-7.13"
+          }
+        }
+      }
+    }
+  }
+}
